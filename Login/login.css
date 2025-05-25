@@ -1,0 +1,77 @@
+body {
+  font-family: 'Noto Sans KR', Times, serif;
+  background-color: #F0F5F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3BA99C;
+  cursor: pointer;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #A8D5BA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3BA99C;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.signup-link a {
+  color: #666;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.error-message { /* 처음 한 번만 실행됨 */
+  
+  color: #2B2D42;color: rgb(255, 57, 57);
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.error-message.show {
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

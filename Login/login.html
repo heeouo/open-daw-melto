@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MELTO : 로그인</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="logo" onclick="goHome()">MELTO</h1>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="이메일" required>
+      <input type="password" id="password" placeholder="비밀번호" required>
+      <button type="submit">로그인</button>
+      <p id="errorMessage" class="error-message"></p>
+    </form>
+    <p class="signup-link">
+      <a href="signup.html">회원가입하러 가기</a>
+    </p>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

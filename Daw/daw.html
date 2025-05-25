@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Melto DAW</title>
+  <link rel="stylesheet" href="daw.css" />
+</head>
+<body>
+  <header class="toolbar">
+    <div class="toolbar-left">
+      <span class="logo" onclick="confirmNavigation()">melto</span>
+      <select id="instrument">
+        <option value="piano">피아노</option>
+        <option value="bass">베이스</option>
+        <option value="drum">드럼</option>
+      </select>
+      <span id="modeLabel">[모드: basic]</span>
+    </div>
+    <div class="toolbar-right">
+      <button onclick="saveTrack()">저장</button>
+    </div>
+  </header>
+
+  <main class="daw-area">
+    <p>키보드로 연주하세요! (A~J)</p>
+    <div class="controls">
+      <button onclick="startRecording()">녹음 시작</button>
+      <button onclick="stopRecording()">멈춤</button>
+      <button onclick="playTrack()">재생</button>
+      <button onclick="rewind()">처음으로</button>
+    </div>
+    <ul id="trackDisplay"></ul>
+  </main>
+
+  <div id="tutorialBox"></div>
+
+  <!-- 팝업 모달 -->
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <p>홈 화면으로 이동하시겠습니까? 필요시에는 진행 사항을 저장하여 주세요.</p>
+      <button onclick="closeModal()">머무르기</button>
+      <button onclick="navigateHome()">이동하기</button>
+    </div>
+  </div>
+
+  <script src="daw.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #F0F5F3;
+}
+
+/* 영어만 다르게: lang 속성 활용 */
+:lang(en) {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FCFBF4;
+  padding: 20px 20px;
+}
+
+.navbar a {
+  color: #686868;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  color: #E4C590;
+  color: #A8D5BA;
+}
+
+.navbar a.active {  
+  color: #248277;
+  font-weight: bold;
+}
+
+.nav-left a {
+  /* text-decoration: underline; */
+  margin-right: 0px; /*수정필요*/
+  letter-spacing: 5px;
+  font-size: 22px;
+  color: #2B2D42;
+}
+
+.nav-center a {
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 50px; 
+}
+
+.nav-center a:hover {            
+  background-color: #f0f0f0;                /* 배경색 변경 */
+  /* color: #0b0b47; */
+  color: #248277;
+  text-shadow: 1px 1px 2px rgba(214, 214, 214, 0.3); /* 글자 그림자 */
+}
+
+.nav-right a {
+
+}
+
+.home-content {
+  text-align: center;
+  padding: 100px 20px
+  /* margin-top: 120px; */
+}
+
+.logo-title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #3BA99C;
+  /* color: #2E2E3A;*/
+  opacity: 0;
+  animation: fadeInBright 1.5s ease-out forwards;
+}
+
+.slogan {
+  font-size: 20px;
+  color: #bb9c9a;
+  color: #2B2D2E;
+  /* color: #5B6C8F; */
+  margin-top: 10px; 
+  opacity: 0;
+  animation: fadeInBright 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInBright {
+  0% {
+    opacity: 0;
+    filter: brightness(50%);
+    transform: translateY(20px); /* 살짝 위로 올라오듯 */
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(100%);
+    transform: translateY(0);
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact {
+  color: #999;
+  font-size: 12px;
+}
