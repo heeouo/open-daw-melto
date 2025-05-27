@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Melto Tutorial Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tutorial.js" defer></script>
+</head>
+<body>
+    <header class="top-bar">
+        <h1 class="logo">
+            <a href="https://heeouo.github.io/open-daw-melto/index.html">MELTO</a>
+        </h1>
+        <div class="controls">
+            <button id="addInstrumentBtn">악기 추가</button>
+            <div id="instrumentOptions" class="hidden">
+                <button class="instrument" data-instrument="Piano">🎹 Piano</button>
+                <button class="instrument" data-instrument="Bass">🎸 Bass</button>
+                <button class="instrument" data-instrument="Drum">🥁 Drum</button>
+                <button id="closeOptions">닫기</button>
+            </div>
+            <button id="record">녹음</button>
+            <button id="stop">정지</button>
+            <button id="play">재생</button>
+            <button id="save">저장</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="trackArea"></div>
+        <div class="piano-keys" id="pianoKeys">
+            <button class="key" data-note="C">C</button>
+            <button class="key" data-note="D">D</button>
+            <button class="key" data-note="E">E</button>
+            <button class="key" data-note="F">F</button>
+            <button class="key" data-note="G">G</button>
+        </div>
+    </main>
+
+    <div id="tutorialOverlay" class="tutorial-overlay">
+        <p id="tutorialMessage">튜토리얼 시작 준비 중...</p>
+        <button id="startTutorial">튜토리얼 시작하기</button>
+    </div>
+</body>
+</html>
