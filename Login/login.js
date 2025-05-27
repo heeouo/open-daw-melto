@@ -27,7 +27,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           localStorage.setItem('isLoggedIn', 'true');
-          window.location.href = "/index.html";
+          window.location.href = "https://heeouo.github.io/open-daw-melto/index.html";
         })
         .catch((error) => {
           errorMsg.classList.remove('show'); // html요소에서 show 이름의의 클래스 제거거
