@@ -1,5 +1,5 @@
 window.goHome = function(){
-  window.location.href = '/index.html';
+  window.location.href = "https://heeouo.github.io/open-daw-melto/index.html";
 }
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";

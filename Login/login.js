@@ -1,5 +1,5 @@
 function goHome() {
-  window.location.href = "/index.html";
+  window.location.href = "https://heeouo.github.io/open-daw-melto/index.html";
 }
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
