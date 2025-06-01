@@ -1,8 +1,8 @@
 document.getElementById('Tutorial').addEventListener('click', () => {
-    window.location.href = '/open-daw-melto/Tutorial-temp/index.html';
+    window.location.href = 'https://heeouo.github.io/open-daw-melto-Daw/';
 });
 
 document.getElementById('Daw').addEventListener('click', () => {
-    window.location.href = '/open-daw-melto/Daw-temp/daw.html';
+    window.location.href = '/https://heeouo.github.io/open-daw-melto-Daw/';
 });
 
