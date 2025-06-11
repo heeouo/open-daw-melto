@@ -11,36 +11,36 @@ Melto는 melting melody를 의미하며, 디지털 오디오 워크스테이션(
 ### 개발자
 <hr/>
 
-![개발자](./public/samples/readme_images/readme01.png)
+![개발자](./images/readme01.png)
 
 
 ### 프레임워크
 <hr/>
 
-![프레임워크](./public/samples/readme_images/readme02.png)
+![프레임워크](./images/readme02.png)
 
 
 ### 사용된 핵심 오픈소스
 <hr/>
 
-![오픈소스](./public/samples/readme_images/readme03.png)
+![오픈소스](./images/readme03.png)
 
 
 ### 프로젝트 소개
 
-![오픈소스](./public/samples/readme_images/readme04.png)
+![오픈소스](./images/readme04.png)
 
 메인화면 우측 상단에서 "Home", "Info", "Start", "About" 메뉴를 확인하세요.
 <br/>
 <br/>
 
-![오픈소스](./public/samples/readme_images/readme05.png)
+![오픈소스](./images/readme05.png)
 
 "Start" 메뉴를 클릭하여 튜토리얼 모드 또는 기본 DAW 기능 중 원하는 모드를 선택하세요.
 <br/>
 <br/>
 
-![오픈소스](./public/samples/readme_images/readme06.png)
+![오픈소스](./images/readme06.png)
 
 키보드로 악기를 연주하고, 원하는 연주를 녹음하여 트랙에 추가하세요.
 <br/>
